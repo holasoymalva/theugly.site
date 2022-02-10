@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ugly Gallery</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        main h1 {
+            margin: 15px auto;
+            text-align: center;
+        }
+        .gallery{
+            display: flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .gallery img{
+            margin: 10px;
+        }
+
+        footer{
+            position: fixed;
+            height: 45px;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <h1>Ugly gallery : a open source image library</h1>
+        <div class="gallery">
+            <img src="//via.placeholder.com/350x150">
+            <img src="//via.placeholder.com/200x100">
+            <img src="//via.placeholder.com/140x100">
+            <img src="//via.placeholder.com/350x150">
+            <img src="//via.placeholder.com/200x100">
+            <img src="//via.placeholder.com/140x100">
+            <img src="//via.placeholder.com/350x150">
+            <img src="//via.placeholder.com/200x100">
+            <img src="//via.placeholder.com/140x100">
+        </div>
+    </main>
+    <footer>From 🇲🇽  with 🌮 and ❤️ </footer>
+</body>
+
+</html>
